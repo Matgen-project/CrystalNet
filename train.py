@@ -6,13 +6,13 @@ from typing import Tuple
 import numpy as np
 import torch
 
-from chemprop.train.run_training import run_training
-from chemprop.data.utils import get_task_names, get_data
-from chemprop.utils import makedirs
-from chemprop.parsing import parse_train_args
-from chemprop.utils import create_logger
-from chemprop.features import AtomCustomJSONInitializer, GaussianDistance, load_radius_dict
-from chemprop.data import CrystalDataset
+from crystalnet.train.run_training import run_training
+from crystalnet.data.utils import get_task_names, get_data
+from crystalnet.utils import makedirs
+from crystalnet.parsing import parse_train_args
+from crystalnet.utils import create_logger
+from crystalnet.features import AtomCustomJSONInitializer, GaussianDistance, load_radius_dict
+from crystalnet.data import CrystalDataset
 
 
 def run(args: Namespace, logger: Logger = None) -> Tuple[np.ndarray, np.ndarray]:

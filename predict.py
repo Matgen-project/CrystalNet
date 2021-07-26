@@ -1,5 +1,5 @@
-from chemprop.parsing import parse_predict_args, modify_predict_args
-from chemprop.train import make_predictions
+from crystalnet.parsing import parse_predict_args, modify_predict_args
+from crystalnet.train import make_predictions
 
 if __name__ == '__main__':
     args = parse_predict_args()
