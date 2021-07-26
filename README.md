@@ -17,6 +17,6 @@ python -u predict.py --gpu 0 --seed 0 --data_path ./data/matgen/preprocess --tes
 python -u transfer_train.py --gpu 0 --data_path ./data/preprocess --train_path ./data/preprocess/experiment_1716 --dataset_name band_gap --dataset_type regression --metric mae --run_fold 0 --save_dir ./ckpt/transfer/fold_1 --checkpoint_dir ./result/0603/ensemble_band_gap/ --epochs 200 --init_lr 1e-4 --max_lr 3e-4 --final_lr 1e-4 --no_features_scaling --show_individual_scores > ./log/fold_0_transfer.log 2>&1 &
 
 
-Reference:
+### Reference:
 [1]. Ying Song, Shuangjia Zheng, Zhangming Niu, Zhang-Hua Fu, Yutong Lu, Yuedong Yang: Communicative Representation Learning on Attributed Molecular Graphs. IJCAI 2020: 2831-2838
 
