@@ -1,5 +1,7 @@
 # CrystalNet
-CrystalNet is a directed graph-based deep learning model for predicting material properties based on the CMPNN[1] framework. In our CrystalNet, each node u is represented by an initial feature vector x(u) that collected from the atom fingerprint18, each edge 〖(u,v)〗_k is also represented by a raw feature vector x((u,v)_k ), corresponding to the kth bond connecting atom u and v. Note that the metal bonds and the ionic bonds are depended on the distance and the electronegativity between two atoms, we followed the previous work18, 20 that expanded the distance with the Gaussian basis exp⁡(-(r-r_0 )^2/σ^2) centered at 100 points linearly placed between 0 and 5 and σ=0.5. 
+CrystalNet is a directed graph-based deep learning model for predicting material properties based on the CMPNN[1] framework. 
+
+In our Model, each node u is represented by an initial feature vector x(u) that collected from the atom fingerprint, each edge 〖(u,v)〗_k is also represented by a raw feature vector x((u,v)_k ), corresponding to the kth bond connecting atom u and v. Note that the metal bonds and the ionic bonds are depended on the distance and the electronegativity between two atoms, we expanded the distance with the Gaussian basis exp⁡(-(r-r_0 )^2/σ^2) centered at 100 points linearly placed between 0 and 5 and σ=0.5. 
 
 ## Requirement
 ```
