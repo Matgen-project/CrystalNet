@@ -35,7 +35,7 @@ python -u train.py --gpu 0 --seed 333 --data_path ../data/preprocess --train_pat
 ## How to predict properties?
 python -u predict.py --gpu 0 --seed 0 --data_path ./data/matgen/preprocess --test_path ./data/matgen/preprocess/calculate --dataset_name band_gap --checkpoint_dir ./ckpt/ensemble/ --no_features_scaling > ./log/predict_band_gap.log 2>&1 &
 
-We also welecome users to use our UI interface to predict crystal properties by the following steps:
+We also welecome users to use our [3DStructGen UI interface](https://matgen.nscc-gz.cn/3dstructgen/v2/mod/3dstructgen_newUI.html) to predict crystal properties by the following steps:
 ```
 # Upload your CIF crystal files into 3DStuctGen interface;
 # Click "Caculate" button and use the APP of "Artificical Intelligence - Crystal"
