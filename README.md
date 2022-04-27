@@ -49,4 +49,5 @@ python -u transfer_train.py --gpu 0 --data_path ./data/preprocess --train_path .
 
 ### Reference:
 [1]. Ying Song, Shuangjia Zheng, Zhangming Niu, Zhang-Hua Fu, Yutong Lu, Yuedong Yang: Communicative Representation Learning on Attributed Molecular Graphs. IJCAI 2020: 2831-2838
+
 [2]. Pin Chen, Yu Wang, Hui Yan, Sen Gao, Zexin Xu, Yangzhong Li, Qing Mo, Junkang Huang, Jun Tao, GeChuanqi Pan, Jiahui Li & Yunfei Du. 3DStructGen: an interactive web-based 3D structure generation for non-periodic molecule and crystal. J Cheminform 12, 7 (2020). https://doi.org/10.1186/s13321-020-0411-2
