@@ -43,7 +43,7 @@ We also welecome users to use our [3DStructGen UI interface](https://matgen.nscc
 ```
 <img src="https://github.com/Matgen-project/CrystalNet/blob/2680940afc507a4009455df36280ef85f7035283/3dstructgen.png" width=90%>
 
-## How to transfer lerning?
+## How to fine-tune model on experimental data?
 python -u transfer_train.py --gpu 0 --data_path ./data/preprocess --train_path ./data/preprocess/experiment_1716 --dataset_name band_gap --dataset_type regression --metric mae --run_fold 0 --save_dir ./ckpt/transfer/fold_1 --checkpoint_dir ./result/0603/ensemble_band_gap/ --epochs 200 --init_lr 1e-4 --max_lr 3e-4 --final_lr 1e-4 --no_features_scaling --show_individual_scores > ./log/fold_0_transfer.log 2>&1 &
 
 
